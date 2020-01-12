@@ -4,16 +4,21 @@
   "description": "Apollo server to wrapJson placeholder api",
   "main": "src/index.js",
   "scripts": {
-    "start": "nodemon src/index.js localhost 8080"
+    "start": "nodemon src/index.js localhost 8080",
+    "serve": "yarn firebase serve --only functions"
   },
   "dependencies": {
-    "apollo-server": "2.9.16",
+    "apollo-server-express": "^2.9.16",
     "axios": "0.19.1",
+    "express": "^4.17.1",
+    "firebase-admin": "^8.9.0",
+    "firebase-functions": "^3.3.0",
     "graphql": "14.5.8",
     "mixin-deep": "^2.0.1",
     "set-value": "^3.0.1"
   },
   "devDependencies": {
+    "firebase-tools": "^7.11.0",
     "nodemon": "1.18.4"
   },
   "keywords": []
