@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "mixin-deep": "^2.0.1",
+    "set-value": "^3.0.1"
+  }
+}
