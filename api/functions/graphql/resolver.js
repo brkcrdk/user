@@ -11,7 +11,7 @@ const resolverFunctions = {
       return axios.get(`${mainUrl}/users/${userId}`).then((res) => res.data);
     },
     post: (parent, { postId }) => {
-      return axios.get(`${mainUrl}/posts/${postId}`);
+      return axios.get(`${mainUrl}/posts/${postId}`).then((res) => res.data);
     }
   },
   //Nested Searchs
