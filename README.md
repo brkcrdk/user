@@ -1,3 +1,3 @@
-# User Detail Page
+### User Detail Page
 
 Practice for GraphQL
