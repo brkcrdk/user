@@ -1,6 +1,6 @@
 const resolverFunctions = {
   Query: {
-    hello: () => "world"
+    hello: () => "Burak"
   }
 };
 
