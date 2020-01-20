@@ -2,4 +2,4 @@
 
 Practice for GraphQL. 
 
-Note: You have to use paid plan to work this otherwise it Firebase throw error.
+Note: You have to use paid plan to work with this otherwise it Firebase throws error.
