@@ -1,4 +1,6 @@
+const axios = require("axios");
 const mainUrl = `https://jsonplaceholder.typicode.com`;
+
 const resolverFunctions = {
   //Main Search querys
   Query: {
